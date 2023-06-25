@@ -1,0 +1,9 @@
+/* Reset */
+* {
+	color: rgb(var(--dmmd-c-wt));
+}
+
+body {
+	background-color: rgb(var(--dmmd-c-bk));
+	padding: 50px 20%;
+}

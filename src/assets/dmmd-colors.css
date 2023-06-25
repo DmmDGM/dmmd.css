@@ -1,0 +1,105 @@
+/* DmmD Styles - Colors Expansion @ 2023 v1.0 */
+
+/* Polychrome (Default Expansion) */
+:root {
+	--dmmd-color-red-light: 255, 95, 95;
+	--dmmd-c-rdl: var(--dmmd-color-red-light);
+
+	--dmmd-color-red-dark: 223, 63, 63;
+	--dmmd-c-rdd: var(--dmmd-color-red-dark);
+
+	--dmmd-color-red-deep: 191, 47, 47;
+	--dmmd-c-rdp: var(--dmmd-color-red-deep);
+
+	--dmmd-color-orange-light: 255, 159, 95;
+	--dmmd-c-ogl: var(--dmmd-color-orange-light);
+
+	--dmmd-color-orange-dark: 223, 127, 63;
+	--dmmd-c-ogd: var(--dmmd-color-orange-dark);
+
+	--dmmd-color-orange-deep: 191, 111, 47;
+	--dmmd-c-ogp: var(--dmmd-color-orange-deep);
+
+	--dmmd-color-yellow-light: 255, 255, 111;
+	--dmmd-c-ywl: var(--dmmd-color-yellow-light);
+
+	--dmmd-color-yellow-dark: 255, 223, 47;
+	--dmmd-c-ywd: var(--dmmd-color-yellow-dark);
+
+	--dmmd-color-yellow-deep: 255, 191, 31;
+	--dmmd-c-ywp: var(--dmmd-color-yellow-deep);
+
+	--dmmd-color-green-light: 111, 255, 111;
+	--dmmd-c-grl: var(--dmmd-color-green-light);
+
+	--dmmd-color-green-dark: 47, 191, 47;
+	--dmmd-c-grd: var(--dmmd-color-green-dark);
+
+	--dmmd-color-green-deep: 31, 143, 31;
+	--dmmd-c-grp: var(--dmmd-color-green-deep);
+
+	--dmmd-color-cyan-light: 111, 159, 255;
+	--dmmd-c-cyl: var(--dmmd-color-cyan-light);
+
+	--dmmd-color-cyan-dark: 47, 127, 191;
+	--dmmd-c-cyd: var(--dmmd-color-cyan-dark);
+
+	--dmmd-color-cyan-deep: 15, 111, 143;
+	--dmmd-c-cyp: var(--dmmd-color-cyan-deep);
+
+	--dmmd-color-blue-light: 111, 111, 255;
+	--dmmd-c-bll: var(--dmmd-color-blue-light);
+
+	--dmmd-color-blue-dark: 47, 47, 191;
+	--dmmd-c-bld: var(--dmmd-color-blue-dark);
+
+	--dmmd-color-blue-deep: 16, 16, 143;
+	--dmmd-c-blp: var(--dmmd-color-blue-deep);
+
+	--dmmd-color-purple-light: 175, 95, 175;
+	--dmmd-c-prl: var(--dmmd-color-purple-light);
+
+	--dmmd-c-shulker: var(-dmmd-color-purple);
+
+	--dmmd-color-purple-dark: 111, 63, 111;
+	--dmmd-c-prd: var(--dmmd-color-purple-dark);
+
+	--dmmd-color-purple-deep: 79, 47, 79;
+	--dmmd-c-prp: var(--dmmd-color-purple-deep);
+
+	--dmmd-color-magenta-light: 255, 111, 255;
+	--dmmd-c-mgl: var(--dmmd-color-magenta-light);
+
+	--dmmd-color-magenta-dark: 223, 47, 223;
+	--dmmd-c-mgd: var(--dmmd-color-magenta-dark);
+
+	--dmmd-color-magenta-deep: 191, 15, 191;
+	--dmmd-c-mgp: var(--dmmd-color-magenta-deep);
+}
+
+/* Polychrome (More Expansion) */
+:root {
+	--dmmd-color-peach-light: 255, 207, 127;
+	--dmmd-c-pcl: var(--dmmd-color-peach-light);
+
+	--dmmd-color-peach: 255, 191, 111;
+	--dmmd-c-pc: var(--dmmd-color-peach);
+
+	--dmmd-color-peach-dark: 255, 175, 95;
+	--dmmd-c-pcd: var(--dmmd-color-peach-dark);
+
+	--dmmd-color-peach-deep: 255, 159, 79;
+	--dmmd-c-pcp: var(--dmmd-color-peach-deep);
+
+	--dmmd-color-brown-light: 175, 95, 63;
+	--dmmd-c-bwl: var(--dmmd-color-brown-light);
+
+	--dmmd-color-brown: 143, 79, 47;
+	--dmmd-c-bw: var(--dmmd-color-brown);
+
+	--dmmd-color-brown-dark: 111, 63, 31;
+	--dmmd-c-bwd: var(--dmmd-color-brown-dark);
+
+	--dmmd-color-brown-deep: 79, 47, 15;
+	--dmmd-c-bwp: var(--dmmd-color-brown-deep);
+}

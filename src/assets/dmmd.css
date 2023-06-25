@@ -1,0 +1,92 @@
+/* DmmD Styles @ 2023 v1.2 */
+
+/* Defaults */
+* {
+	border: none;
+	color: rgb(var(--dmmd-color-black-dark));
+	font-family: "Robots", sans-serif;
+	font-size: 15px;
+	line-height: 15px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+/* Monochrome */
+:root {
+	--dmmd-color-white-light: 255, 255, 255;
+	--dmmd-c-wtl: var(--dmmd-color-white-light);
+
+	--dmmd-color-white: 238, 238, 238;
+	--dmmd-c-wt: var(--dmmd-color-white);
+
+	--dmmd-color-white-dark: 221, 221, 221;
+	--dmmd-c-wtd: var(--dmmd-color-white-dark);
+
+	--dmmd-color-gray-light: 143, 143, 143;
+	--dmmd-c-gyl: var(--dmmd-color-gray-light);
+
+	--dmmd-color-gray: 111, 111, 111;
+	--dmmd-c-gy: var(--dmmd-color-gray);
+
+	--dmmd-color-gray-dark: 79, 79, 79;
+	--dmmd-c-gyd: var(--dmmd-color-gray-dark);
+
+	--dmmd-color-black-light: 52, 52, 52;
+	--dmmd-c-bkl: var(--dmmd-color-black-light);
+
+	--dmmd-color-black: 18, 18, 18;
+	--dmmd-c-bk: var(--dmmd-color-black);
+
+	--dmmd-color-black-dark: 0, 0, 0;
+	--dmmd-c-bkd: var(--dmmd-color-black-dark);
+}
+
+/* Polychrome */
+:root {
+	--dmmd-color-red: 255, 79, 79;
+	--dmmd-c-rd: var(--dmmd-color-red);
+
+	--dmmd-color-orange: 255, 143, 79;
+	--dmmd-c-og: var(--dmmd-color-orange);
+
+	--dmmd-color-yellow: 255, 255, 79;
+	--dmmd-c-yw: var(--dmmd-color-yellow);
+
+	--dmmd-color-green: 79, 255, 79;
+	--dmmd-c-gr: var(--dmmd-color-green);
+
+	--dmmd-color-cyan: 79, 143, 255;
+	--dmmd-c-cy: var(--dmmd-color-cyan);
+
+	--dmmd-color-blue: 79, 79, 255;
+	--dmmd-c-bl: var(--dmmd-color-blue);
+
+	--dmmd-color-purple: 143, 79, 143;
+	--dmmd-c-pr: var(--dmmd-color-purple);
+
+	--dmmd-color-magenta: 255, 79, 255;
+	--dmmd-c-mg: var(--dmmd-color-magenta);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	height: 3px;
+	width: 3px;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: rgb(var(--dmmd-color-gray-dark));
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(var(--dmmd-color-gray-light));
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(var(--dmmd-color-gray));
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgb(var(--dmmd-color-gray-dark));
+}
