@@ -143,7 +143,7 @@ let colors = {
 				>
 			</div>
 			<div class="download">
-				<a href="./assets/dmmd.css" download>Download</a>
+				<a href="./dmmd.css" download>Download</a>
 				<a href="https://cdn.iipython.dev/dmmd/v1.2/dmmd.css">CDN</a>
 				<a href="https://cdn.iipython.dev/dmmd/v1.2/dmmd.min.css">CDN (Min)</a>
 			</div>
@@ -212,7 +212,7 @@ let colors = {
 				<label for="colors-colors-original">Show Original</label>
 			</div>
 			<div class="download">
-				<a href="./assets/dmmd-colors.css" download>Download</a>
+				<a href="./dmmd-colors.css" download>Download</a>
 				<a href="https://cdn.iipython.dev/dmmd/v1.0/dmmd-colors.css">CDN</a>
 				<a href="https://cdn.iipython.dev/dmmd/v1.0/dmmd-colors.min.css">CDN (Min)</a>
 			</div>
